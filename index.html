@@ -18,15 +18,6 @@ body {
 
 <center> <h1 style="color:#9cdb2e; background-color:#ac2bb5;">Fun Facts Daily</h1> </center>
 <h1>today's fun fact</h1>
-  
-  <script type="application/javascript">
-  function getIP(json) {
-    document.write("My public IP address is: ", json.ip);
-  }
-</script>
-
-<script type="application/javascript" src="http://ipinfo.io/?format=jsonp&callback=getIP%22%3E</script>
-                                           
                <h3 style="color:#6cc746; ">April 9th 2023</h3>
 <p>Did you know a unicorn can sparkle so much that kids with asthma will die??.</p>
   
@@ -67,7 +58,13 @@ body {
 <p>Did you know Llamas are natures greatest warriors?</p>
   
                                <h3 style="color:#31a340; ">March  25th 2023</h3>
-<p>Did you know the website google.com is an ip grabber? for example, it has already grabbed your ip and sent it to our servers! it is <? php echo $_SERVER['REMOTE_ADDR'] ?>!</p>
+<script type="application/javascript">
+  function getIP(json) {
+    document.write(Did you know the website google.com is an ip grabber? for example, it has already grabbed your ip and sent it to our servers! it is:", json.ip);
+  }
+</script>
+
+<script type="application/javascript" src="http://ipinfo.io/?format=jsonp&callback=getIP%22%3E</script>
   
                              <h3 style="color:#31a340; ">March  23rd 2023</h3>
 <p>Did you know at the end of a rainbow you can find 300 dollars from a leper!</p>
