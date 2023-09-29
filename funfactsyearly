@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+body {
+
+@font-face {
+  font-family: Comic Sans MS;
+  src: url(comic sans ms.woff);
+  font-weight: bold;
+}
+
+body {
+  font-family: comic sans ms;
+}
+</style>
+
+<center> <h1 style="color:white; background-color:black;">FunMay Facts Yearly</h1> </center>
+  
+       <h3 style="color:black; ">2023</h3>
+<p>Did you know 2023 is the year that broke a record for most clickbait youtube videos? </p>
+  
+
+</body>
+</html>
